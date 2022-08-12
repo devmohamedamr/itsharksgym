@@ -12,7 +12,9 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     private $adminRepository;
+    public function ww(){
 
+    }
     public function __construct(AdminRepository $adminRepository)
     {
         $this->adminRepository = $adminRepository;
